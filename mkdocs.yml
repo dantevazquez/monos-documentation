@@ -1,0 +1,35 @@
+site_name: Monos Linux
+site_url: https://monos.example.com
+theme:
+  name: material
+  font: false
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Welcome: index.md
+  - Installation: installation.md
+  - Mono WM: monowm.md
+  - Programs: programs.md
+  - Theming: themes.md
+

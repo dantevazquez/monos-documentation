@@ -1,0 +1,104 @@
+@import url('https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@v3.3.0/build/jetbrains-mono-nerd-font.css');
+
+/* Global Font Overrides */
+* {
+  font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace !important;
+}
+
+:root, [data-md-color-scheme="default"], [data-md-color-scheme="slate"] {
+  /* Set background color to #352738 */
+  --md-default-bg-color: #352738 !important;
+  --md-default-bg-color--light: #352738 !important;
+  --md-default-bg-color--dark: #2c1e2f !important;
+  
+  /* Set text color to #ebdcf0 */
+  --md-default-fg-color: #ebdcf0 !important;
+  --md-default-fg-color--light: #ebdcf0 !important;
+  --md-default-fg-color--dark: #c0b1c5 !important;
+  
+  /* Header styling (using #352738 for header too) */
+  --md-primary-fg-color: #352738 !important;
+  --md-primary-fg-color--transparent: rgba(53, 39, 56, 0.9) !important;
+  --md-primary-bg-color: #ebdcf0 !important;
+  
+  /* Accent styling (using Barney green #a6d189) */
+  --md-accent-fg-color: #a6d189 !important;
+  --md-accent-bg-color: #352738 !important;
+  
+  /* Link colors */
+  --md-typeset-a-color: #a6d189 !important;
+  --md-typeset-a-hover-color: #ebdcf0 !important;
+  
+  /* Code blocks styling */
+  --md-code-bg-color: #2c1e2f !important;
+  --md-code-fg-color: #ebdcf0 !important;
+  
+  /* Admonition/Notification backgrounds */
+  --md-admonition-bg-color: #2c1e2f !important;
+
+  /* Fonts */
+  --md-text-font: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace !important;
+  --md-code-font: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace !important;
+}
+
+/* Force body and outer layouts to match color requirements */
+body, html, .md-container, .md-header, .md-footer, .md-sidebar, .md-main {
+  background-color: #352738 !important;
+  color: #ebdcf0 !important;
+}
+
+/* Make headers look crisp */
+h1, h2, h3, h4, h5, h6, .md-header__title, .md-nav__link {
+  color: #ebdcf0 !important;
+}
+
+/* Hover highlights in navigation sidebar */
+.md-nav__link:hover, .md-nav__link--active {
+  color: #a6d189 !important;
+}
+
+/* Custom adjustments for navigation tabs under the header */
+.md-tabs__link {
+  color: #ebdcf0 !important;
+}
+.md-tabs__link--active {
+  color: #a6d189 !important;
+}
+
+/* Fix social icons / search bar border color */
+.md-search__form {
+  background-color: #2c1e2f !important;
+}
+.md-search__input {
+  color: #ebdcf0 !important;
+}
+.md-search__input::placeholder {
+  color: #c0b1c5 !important;
+}
+
+/* Mobile Responsiveness Enhancements */
+@media screen and (max-width: 768px) {
+  .md-typeset table:not([class]) {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .md-typeset code {
+    word-break: break-word;
+  }
+}
+
+/* Image / GIF Border & Styling */
+.md-typeset img {
+  border: 2px solid #ebdcf0;
+  border-radius: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+
