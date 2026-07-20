@@ -14,7 +14,7 @@ Installation is straightforward and can be done in a matter of minutes.
    If you want to type less, you can run:
 
    ```bash
-   bash <(curl -sL https://dantevazquez.com/monos)
+   bash <(curl -sL https://dantevazquez.com/install)
    ```
 
    Source code for the script can be found on [GitHub](https://github.com/dantevazquez/monos){ target="_blank" }.
