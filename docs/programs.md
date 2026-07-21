@@ -61,6 +61,10 @@ A simple TUI that lets you connect to Bluetooth. You can run it by typing `bluet
 
 A simple TUI that lets you control your audio settings. You can run it by typing `wiremix` in your terminal or by launching `audio-settings-monos` via the application launcher (`super+d`).
 
+
+## Display Settings - [Restui](https://github.com/dantevazquez/monos/tree/main/bin/restui){ target="_blank" }
+A simple TUI that lets you change your resolution and DPI. If your resolution is high and the everything looks very small, you can try increasing the DPI to make everything bigger while keeping your resolution crisp.
+
 ## The Remaining
 
 Here's a list of the rest of the packages installed in your system, a lot are libraries to compile the mono window manager:

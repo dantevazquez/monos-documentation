@@ -110,7 +110,6 @@ The status bar is configured separately in `~/.config/monowm/bar.conf`. Below is
 
 # General Bar Settings
 bar_enabled = 1
-bar_height = 24
 bar_font_name = JetBrainsMono Nerd Font
 bar_font_size = 14
 bar_update_interval = 5 # In seconds. Lower for worst performance but more responsive bar updates
@@ -180,8 +179,7 @@ icon = chromium : 
 - **General Options**:
   - `bar_enabled`: Set to `1` to show the status bar, or `0` to hide it.
   - `bar_position`: Set to `top` or `bottom`.
-  - `bar_height`: Bar height in pixels.
-  - `bar_font_name` & `bar_font_size`: Font name and font size used by the bar.
+  - `bar_font_name` & `bar_font_size`: Font name and font size used by the bar. The font size controls the height of the bar as well.
   - `bar_update_interval`: Update frequency in seconds.
 - **Colors**:
   - Specify hex color values (`#RRGGBB`) or set to `-` to fall back to default window manager theme colors.
