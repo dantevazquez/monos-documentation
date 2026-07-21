@@ -1,8 +1,12 @@
 site_name: Monos Linux
 site_url: https://monos.dantevazquez.com
+repo_url: https://github.com/dantevazquez/monos
+repo_name: dantevazquez/monos
 theme:
   name: material
   font: false
+  icon:
+    repo: fontawesome/brands/github
   palette:
     primary: custom
     accent: custom
