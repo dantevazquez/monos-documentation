@@ -51,19 +51,19 @@ You may prefer Firefox or any other browser, feel free to install them. Chromium
 
 ## Connect to Wifi - [Impala](https://github.com/erikreinert/impala){ target="_blank" }
 
-A simple TUI that lets you connect to Wi-Fi. You can run it by typing `impala` in your terminal or by launching `wifi-picker-monos` via the application launcher (`super+d`).
+A simple TUI that lets you connect to Wi-Fi. You can run it by typing `impala` in your terminal or by launching `wifi-picker-monos` via the application launcher (`super+space`).
 
 ## Connect to Bluetooth - [Bluetui](https://github.com/darkhz/bluetui){ target="_blank" }
 
-A simple TUI that lets you connect to Bluetooth. You can run it by typing `bluetui` in your terminal or by launching `bluetooth-settings-monos` via the application launcher (`super+d`).
+A simple TUI that lets you connect to Bluetooth. You can run it by typing `bluetui` in your terminal or by launching `bluetooth-settings-monos` via the application launcher (`super+space`).
 
 ## Audio Settings - [Wiremix](https://github.com/fennich/wiremix){ target="_blank" }
 
-A simple TUI that lets you control your audio settings. You can run it by typing `wiremix` in your terminal or by launching `audio-settings-monos` via the application launcher (`super+d`).
+A simple TUI that lets you control your audio settings. You can run it by typing `wiremix` in your terminal or by launching `audio-settings-monos` via the application launcher (`super+space`).
 
 
 ## Display Settings - [Restui](https://github.com/dantevazquez/monos/tree/main/bin/restui){ target="_blank" }
-A simple TUI that lets you change your resolution and DPI. If your resolution is high and the everything looks very small, you can try increasing the DPI to make everything bigger while keeping your resolution crisp.
+A simple TUI that lets you change your resolution and DPI. If your resolution is high and the everything looks very small, you can try increasing the DPI to make everything bigger while keeping your resolution crisp. You can run it in your terminal by typing display-settings-monos in your terminal or by launching it via the application launcher (super+space)
 
 ## The Remaining
 
