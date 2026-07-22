@@ -1,6 +1,6 @@
 # Monos Linux
 
-This is a lightweight Arch Linux setup based around the mono window manager, a keyboard-driven window manager
+This is a lightweight Arch Linux setup based around the [mono window manager](https://github.com/dantevazquez/monowm), a keyboard-driven window manager
 that focuses on only having one window/application on your screen at a time. This sounds like a nightmare
 to navigate, however by using `super+tab` you are able to cycle your windows or you may use `super+1-9` 
 to navigate each window listed in the top right.
