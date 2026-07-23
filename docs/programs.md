@@ -47,7 +47,7 @@ Adding an LSP is quite simple in this configuration and it is done with no plugi
 
 ## The Browser - [Chromium](https://www.chromium.org/chromium-projects/){ target="_blank" }
 
-You may prefer Firefox or any other browser, feel free to install them. Chromium is just easy to dynamically theme.
+You may prefer Firefox or any other browser, feel free to install them. Chromium is just easy to dynamically theme. Also, you can install web apps in chromium in pages that have the install button in the address bar such as Spotify or Excalidraw, and run them via the application laucher (super+space)
 
 ## Connect to Wifi - [Impala](https://github.com/erikreinert/impala){ target="_blank" }
 
@@ -76,4 +76,5 @@ xorg-xset libx11 libxft libxinerama freetype2 fontconfig pkg-config lua chromium
 kitty vlc ttf-jetbrains-mono-nerd xclip feh maim dmenu pipewire fastfetch ripgrep
 fd dunst impala fzf wiremix brightnessctl bluetui bluez polkit-gnome gnome-keyring
 xdg-desktop-portal-gtk xcolor yazi tmux autoconf automake libxrandr libxrender libpng
+libnotify j4-dmenu-desktop
 ```
