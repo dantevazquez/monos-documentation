@@ -5,7 +5,7 @@ Installation is straightforward and can be done in a matter of minutes.
 ## Installation Steps
 
 1. Download the official Arch ISO [here](https://archlinux.org/download/){ target="_blank" }, put it on a USB stick (use [balenaEtcher](https://etcher.balena.io/) on Mac/Windows or [caligula](https://github.com/ifd3f/caligula) on Linux), and boot off the stick.
-2. Make sure you are connected to the internet (ethernet or Wi-Fi). If you need to connect to Wi-Fi, you can use `iwctl`:
+2. Once you're inside the Arch ISO, make sure you are connected to the internet (ethernet or Wi-Fi). If you need to connect to Wi-Fi, you can use `iwctl`:
 
    ```bash
    iwctl
