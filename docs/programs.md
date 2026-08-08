@@ -2,9 +2,9 @@
 
 Monos is centred around the terminal, and as a result, we have only included 3 GUI programs, one being a terminal.
 
-## The Terminal - [Kitty](https://sw.kovidgoyal.net/kitty/){ target="_blank" }
+## The Terminal - [Alacritty](https://github.com/alacritty/alacritty){ target="_blank" }
 
-Kitty is packed with features, including image rendering, which is why we chose this terminal. It could be considered heavyweight for some, but it runs very fast and comes ready out of the box. We've included the alias `icat path/to/image`, which allows you to quickly view an image right in your terminal. Kitty also allows you to view previews of images in the file explorer `yazi`, a big reason why we chose Kitty as a default.
+Alacritty is simple terminal that just works. We paired it with [ueberzugpp](https://github.com/jstkdng/ueberzugpp) to let you view images in the terminal when using yazi.
 
 ## The File Explorer - [Yazi](https://yazi-rs.github.io/){ target="_blank" }
 

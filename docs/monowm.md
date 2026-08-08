@@ -38,8 +38,9 @@ max_windows = 9
 # Internal Window Manager Keybindings
 # Format: modifiers+keysym (modifiers can be: super, shift, control, alt)
 bind_quit = super+q
-bind_cycle = super+Tab
-cycle_enabled = 0
+bind_window_switcher = super+Tab
+
+#prefix for mod + 1,2,3,4,5,6,7,8,9
 bind_switch_window_mod = super
 bind_reload = super+F4
 bind_toggle_bar = super+F5
