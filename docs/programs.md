@@ -65,6 +65,9 @@ A simple TUI that lets you control your audio settings. You can run it by typing
 ## Display Settings - [Restui](https://github.com/dantevazquez/monos/tree/main/bin/restui){ target="_blank" }
 A simple TUI that lets you change your resolution and DPI. If your resolution is high and the everything looks very small, you can try increasing the DPI to make everything bigger while keeping your resolution crisp. You can run it in your terminal by typing display-settings-monos in your terminal or by launching it via the application launcher (super+space)
 
+## Send Files - [Localsend](https://localsend.org/){ target="_blank" }
+Send files or clipboard to your computer from your phone via the localsend app on ios or android. In monos, files sent from localsend are automatically received, but if you want to accept or deny incoming files, open up ~/.config/monowm/autostart and remove the --autoaccept flag from the monosend command. You may also send files to your phone or another device with localsend by doing `monosend share example.jpg` or by selecting files in yazi with space and hittin Shift+S to send the file. 
+
 ## The Remaining
 
 Here's a list of the rest of the packages installed in your system, a lot are libraries to compile the mono window manager:
@@ -76,5 +79,5 @@ xorg-xset libx11 libxft libxinerama freetype2 fontconfig pkg-config lua chromium
 kitty vlc ttf-jetbrains-mono-nerd xclip feh maim dmenu pipewire fastfetch ripgrep
 fd dunst impala fzf wiremix brightnessctl bluetui bluez polkit-gnome gnome-keyring
 xdg-desktop-portal-gtk xcolor yazi tmux autoconf automake libxrandr libxrender libpng
-libnotify j4-dmenu-desktop
+libnotify j4-dmenu-desktop cargo
 ```
